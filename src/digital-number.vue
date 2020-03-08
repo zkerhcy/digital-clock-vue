@@ -57,7 +57,7 @@ export default {
 
 <style lang='less' scoped>
 .digital-number {
-  display: inline-block;
+  float: left;
   position: relative;
   .top {
     position: absolute;

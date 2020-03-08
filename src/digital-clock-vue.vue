@@ -111,7 +111,7 @@ export default {
   box-sizing: border-box;
   .twink {
     height: 100%;
-    display: inline-block;
+    float: left;
   }
   // padding: 1%;
   .digital-number {
