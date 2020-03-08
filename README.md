@@ -37,6 +37,13 @@ export default {
 }
 ```
 
+## Props
+
+| Prop          | Type    | Desc                                                 |
+| ------------- | ------- | ---------------------------------------------------- |
+| `color`       | String  | Css color for digital number and twink.              |
+| `showSeconds` | Boolean | Determine whether to show seconds, default is false. |
+
 ## Examples
 
 ```html
