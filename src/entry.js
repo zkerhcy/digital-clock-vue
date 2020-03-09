@@ -1,5 +1,6 @@
 // Import vue component
 import component from '@/digital-clock-vue.vue'
+import DigitalNumber from '@/digital-number.vue'
 
 // install function executed by Vue.use()
 const install = function installDigitalClockVue(Vue) {
@@ -36,3 +37,4 @@ export default component
 // It's possible to expose named exports when writing components that can
 // also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
 // export const RollupDemoDirective = component;
+export { DigitalNumber }

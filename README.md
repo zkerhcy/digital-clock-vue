@@ -31,9 +31,13 @@ yarn add digital-clock-vue
 ## Usage
 
 ```js
-import DigitalClockVue from 'digital-clock-vue'
+import DigitalClockVue, { DigitalNumber } from 'digital-clock-vue'
+
 export default {
-  components: { DigitalClockVue }
+  components: {
+    DigitalClockVue,
+    DigitalNumber
+  }
 }
 ```
 
