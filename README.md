@@ -2,7 +2,7 @@
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zkerhcy/digital-clock-vue/blob/master/LICENSE)
 
-> ️A digital clock simulation build on Vue.
+> A digital clock simulation build on Vue.
 
 ![digital-clock](asserts/img1.gif)
 
@@ -16,13 +16,13 @@ You can also use the [digital-number](src/digital-number.vue) component.
 
 ## Installation
 
-Via NPM:
+via NPM:
 
 ```shell
 npm install --save digital-clock-vue
 ```
 
-Via Yarn:
+via Yarn:
 
 ```shell
 yarn add digital-clock-vue
@@ -41,20 +41,20 @@ export default {
 
 | Prop          | Type    | Desc                                                 |
 | ------------- | ------- | ---------------------------------------------------- |
-| `color`       | String  | Css color for digital number and twink.              |
+| `color`       | String  | CSS color for digital number and twink.              |
 | `showSeconds` | Boolean | Determine whether to show seconds, default is false. |
 
 ## Examples
 
 ```html
-<!-- recommned aspect ratio 4:1 -->
+<!-- recommend aspect ratio 4:1 -->
 <digital-clock-vue
   color="red"
   showSeconds
   style="background: black; width: 400px; height: 100px;"
 />
 
-<!-- recommned aspect ratio when without seconds 8:3 -->
+<!-- recommend aspect ratio when without seconds 8:3 -->
 <digital-clock-vue
   color="#39af78"
   style="background: #2f4053; width: 240px; height: 90px;"
